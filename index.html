@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="imagen1">
+            <img src="https://sciencewarsdotcom.files.wordpress.com/2017/09/los-mejores-programas-para-encriptar-una-memoria-usb-5.jpg?w=1600&h=768&crop=1" alt="logoCandado" class="logoEncriptar">
+        </div>
+        <div class="tituloPrincipal">
+            <marquee behavior="" direction="">
+             <h1>Encriptador Alura</h1>
+            </marquee>
+        </div>
+        <img src="imagenes/Logo.png" alt="logo de alura" class="logoSuperior">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">★ Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensajeEncriptado" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="1" d="M0,160L130.9,128L261.8,64L392.7,192L523.6,96L654.5,256L785.5,0L916.4,128L1047.3,160L1178.2,192L1309.1,64L1440,160L1440,320L1309.1,320L1178.2,320L1047.3,320L916.4,320L785.5,320L654.5,320L523.6,320L392.7,320L261.8,320L130.9,320L0,320Z"></path></svg>
+    <script src="script.js"></script>
+</body>
+</html>
